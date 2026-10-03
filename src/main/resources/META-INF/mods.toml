@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="cargakawaii"
+version="1.1.0"
+displayName="Carga Kawaii"
+displayTest="IGNORE_SERVER_VERSION"
+description='''
+Todo muy cute: pantalla de arranque con corazones que se llenan, menu principal pastel con arcoiris,
+y pantallas de carga del mundo con los personajes de tus mods (Mao de Corazón de Melon, Flowys y Nutrias).
+Solo cliente: no hace falta en el servidor.
+'''
+
+[[dependencies.cargakawaii]]
+modId="forge"
+mandatory=true
+versionRange="[47.3.0,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.cargakawaii]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="CLIENT"
